@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import './lib/css/bootstrap.min.css'
+import './lib/js/bootstrap.bundle.min.js'
+// import './lib/js/bootstrap.min.js'
+// import './lib/js/popper.min,js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
