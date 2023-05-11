@@ -1,9 +1,14 @@
-function App() {
-    return (
-        <div className="App">
-            <h1>Hello</h1>
-        </div>
-    );
-}
+import './styles.css'
+import Header from './component/Header'
+import Navbar from './component/Navbar'
+import Portfolio from "./component/Portfolio";
 
-export default App;
+export default function MyApp() {
+  return (
+    <div id="page-top">
+        <Navbar/>
+        <Header/>
+        <Portfolio/>
+    </div>
+  );
+}
